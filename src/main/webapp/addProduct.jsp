@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+  <script type="text/javascript" src="/Users/steffenlee/IdeaProjects/JSP_Project/src/main/webapp/js/validation.js"></script>
   <title>상품 등록</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
     <div class="form-group row">
       <label class="col-sm-2">상품 코드</label>
       <div class="col-sm-3">
-        <input type="text" name="productId" class="form-control" >
+        <input type="text" id="productId" name="productId" class="form-control" >
       </div>
     </div>
     <div class="form-group row">
