@@ -22,7 +22,7 @@ tasks.withType(JavaCompile) {
 }
 
 dependencies {
-
+    implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
     // https://mvnrepository.com/artifact/servlets.com/cos
     implementation group: 'servlets.com', name: 'cos', version: '05Nov2002'
 // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api

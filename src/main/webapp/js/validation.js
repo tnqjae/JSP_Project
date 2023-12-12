@@ -4,14 +4,14 @@ function CheckAddProduct(){
  let unitPrice = document.getElementById("unitPrice")
  let unitinStock = document.getElementById("unitInStock")
 
- if(!check(/^[A-Z]{3}[0-9]{4}$/, productId,"[상품 코드]\n대문자 3개와 숫자4자리로 적어주세요")) {
+ if(!check(/^[A-Z]{1,3}[0-9]{4}$/, productId,"[상품 코드]\n대문자 1~3개와 숫자4자리로 적어주세요")) {
   name.select()
   name.focus()
   return false
  }
 
  //상품명 체크
-  if(!check.value.length < 4 || name.value.length > 12){
+  if(name.value.length < 4 || name.value.length > 12){
    alert("[상품명]\n 최소 4개에 최대 12자까지 입력하세요")
    name.select()
    name.focus()

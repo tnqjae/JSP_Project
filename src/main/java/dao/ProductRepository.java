@@ -13,7 +13,7 @@ public class ProductRepository {
         return instance;
     }
     public ProductRepository() {
-        Product phone = new Product("N-R-4090", "NVIDIA 지포스 RTX 4090 Founders Edition D6X 24GB ", 3988000);
+        Product phone = new Product("N-R-4090", "NVIDIA Geforce RTX 4090 Founders Edition D6X 24GB", 3988000);
         phone.setDescription("4nm / base clock: 2230MHz / boost clock: 2520MHz / CUDA: 16384개 / PCIe4.0x16 / GDDR6X(DDR6X) / Output : HDMI2.1 , DP1.4 / 부가기능: 8K 지원 , 4K 지원 , HDR 지원 , HDCP 2.3 / Power: 최대 450W / Power port: 16핀(12VHPWR) x1 / Up to 850W / 가로(길이): 304mm / 두께: 61mm / 백플레이트");
         phone.setCategory("Graphic Card(GPU)");
         phone.setManufacturer("Nvida");
