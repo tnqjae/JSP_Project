@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <html>
 <head>
   <link rel="stylesheet" href="/css/bootstrap.min.css"/>
@@ -6,10 +7,10 @@
   <title>상품 등록</title>
 </head>
 <body>
-<jsp:include page="menu.jsp" />
+
 <div class="jumbotron">
   <div class="container">
-    <h1 class="display-3">상품 등록</h1>
+    <h1 class="display-3"><fmt:message key="title"></h1>
   </div>
 </div>
 
@@ -19,7 +20,7 @@
     <div class="form-group row">
       <label class="col-sm-2">상품 코드</label>
       <div class="col-sm-3">
-        <input type="text" id="productId" name="productId" class="form-control" >
+        <input type="text" id="productId" class="form-control" >
       </div>
     </div>
     <div class="form-group row">
